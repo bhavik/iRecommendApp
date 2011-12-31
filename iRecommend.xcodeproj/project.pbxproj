@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3A2B4BA14AF8BD2008A65F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A2B4B914AF8BD2008A65F4 /* UIKit.framework */; };
+		A3A2B4BC14AF8BD2008A65F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A2B4BB14AF8BD2008A65F4 /* Foundation.framework */; };
+		A3A2B4BE14AF8BD2008A65F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A2B4BD14AF8BD2008A65F4 /* CoreGraphics.framework */; };
+		A3A2B4C414AF8BD2008A65F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4C214AF8BD2008A65F4 /* InfoPlist.strings */; };
+		A3A2B4C714AF8BD2008A65F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4C614AF8BD2008A65F4 /* main.m */; };
+		A3A2B4CA14AF8BD2008A65F4 /* iRecommendAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4C914AF8BD2008A65F4 /* iRecommendAppDelegate.m */; };
+		A3A2B4CD14AF8BD2008A65F4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4CB14AF8BD2008A65F4 /* MainWindow.xib */; };
+		A3A2B4D014AF8BD2008A65F4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4CF14AF8BD2008A65F4 /* FirstViewController.m */; };
+		A3A2B4D314AF8BD2008A65F4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4D214AF8BD2008A65F4 /* SecondViewController.m */; };
+		A3A2B4D614AF8BD2008A65F4 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4D414AF8BD2008A65F4 /* FirstView.xib */; };
+		A3A2B4D914AF8BD2008A65F4 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4D714AF8BD2008A65F4 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3A2B4B514AF8BD1008A65F4 /* iRecommend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRecommend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A2B4B914AF8BD2008A65F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3A2B4BB14AF8BD2008A65F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3A2B4BD14AF8BD2008A65F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3A2B4C114AF8BD2008A65F4 /* iRecommend-Info.plist */ = {isa = PBXFileReference; path = "iRecommend-Info.plist"; sourceTree = "<group>"; };
+		A3A2B4C314AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3A2B4C514AF8BD2008A65F4 /* iRecommend-Prefix.pch */ = {isa = PBXFileReference; path = "iRecommend-Prefix.pch"; sourceTree = "<group>"; };
+		A3A2B4C614AF8BD2008A65F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3A2B4C814AF8BD2008A65F4 /* iRecommendAppDelegate.h */ = {isa = PBXFileReference; path = iRecommendAppDelegate.h; sourceTree = "<group>"; };
+		A3A2B4C914AF8BD2008A65F4 /* iRecommendAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRecommendAppDelegate.m; sourceTree = "<group>"; };
+		A3A2B4CC14AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A3A2B4CE14AF8BD2008A65F4 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		A3A2B4CF14AF8BD2008A65F4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A3A2B4D114AF8BD2008A65F4 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		A3A2B4D214AF8BD2008A65F4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A3A2B4D514AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		A3A2B4D814AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3A2B4B214AF8BD1008A65F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A2B4BA14AF8BD2008A65F4 /* UIKit.framework in Frameworks */,
+				A3A2B4BC14AF8BD2008A65F4 /* Foundation.framework in Frameworks */,
+				A3A2B4BE14AF8BD2008A65F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3A2B4AA14AF8BD1008A65F4 = {
+			isa = PBXGroup;
+			children = (
+				A3A2B4BF14AF8BD2008A65F4 /* iRecommend */,
+				A3A2B4B814AF8BD1008A65F4 /* Frameworks */,
+				A3A2B4B614AF8BD1008A65F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A2B4B614AF8BD1008A65F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2B4B514AF8BD1008A65F4 /* iRecommend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3A2B4B814AF8BD1008A65F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2B4B914AF8BD2008A65F4 /* UIKit.framework */,
+				A3A2B4BB14AF8BD2008A65F4 /* Foundation.framework */,
+				A3A2B4BD14AF8BD2008A65F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3A2B4BF14AF8BD2008A65F4 /* iRecommend */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2B4C814AF8BD2008A65F4 /* iRecommendAppDelegate.h */,
+				A3A2B4C914AF8BD2008A65F4 /* iRecommendAppDelegate.m */,
+				A3A2B4CB14AF8BD2008A65F4 /* MainWindow.xib */,
+				A3A2B4CE14AF8BD2008A65F4 /* FirstViewController.h */,
+				A3A2B4CF14AF8BD2008A65F4 /* FirstViewController.m */,
+				A3A2B4D114AF8BD2008A65F4 /* SecondViewController.h */,
+				A3A2B4D214AF8BD2008A65F4 /* SecondViewController.m */,
+				A3A2B4D414AF8BD2008A65F4 /* FirstView.xib */,
+				A3A2B4D714AF8BD2008A65F4 /* SecondView.xib */,
+				A3A2B4C014AF8BD2008A65F4 /* Supporting Files */,
+			);
+			path = iRecommend;
+			sourceTree = "<group>";
+		};
+		A3A2B4C014AF8BD2008A65F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3A2B4C114AF8BD2008A65F4 /* iRecommend-Info.plist */,
+				A3A2B4C214AF8BD2008A65F4 /* InfoPlist.strings */,
+				A3A2B4C514AF8BD2008A65F4 /* iRecommend-Prefix.pch */,
+				A3A2B4C614AF8BD2008A65F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3A2B4B414AF8BD1008A65F4 /* iRecommend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A2B4DC14AF8BD2008A65F4 /* Build configuration list for PBXNativeTarget "iRecommend" */;
+			buildPhases = (
+				A3A2B4B114AF8BD1008A65F4 /* Sources */,
+				A3A2B4B214AF8BD1008A65F4 /* Frameworks */,
+				A3A2B4B314AF8BD1008A65F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRecommend;
+			productName = iRecommend;
+			productReference = A3A2B4B514AF8BD1008A65F4 /* iRecommend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A2B4AC14AF8BD1008A65F4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A3A2B4AF14AF8BD1008A65F4 /* Build configuration list for PBXProject "iRecommend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3A2B4AA14AF8BD1008A65F4;
+			productRefGroup = A3A2B4B614AF8BD1008A65F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A2B4B414AF8BD1008A65F4 /* iRecommend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3A2B4B314AF8BD1008A65F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A2B4C414AF8BD2008A65F4 /* InfoPlist.strings in Resources */,
+				A3A2B4CD14AF8BD2008A65F4 /* MainWindow.xib in Resources */,
+				A3A2B4D614AF8BD2008A65F4 /* FirstView.xib in Resources */,
+				A3A2B4D914AF8BD2008A65F4 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3A2B4B114AF8BD1008A65F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A2B4C714AF8BD2008A65F4 /* main.m in Sources */,
+				A3A2B4CA14AF8BD2008A65F4 /* iRecommendAppDelegate.m in Sources */,
+				A3A2B4D014AF8BD2008A65F4 /* FirstViewController.m in Sources */,
+				A3A2B4D314AF8BD2008A65F4 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3A2B4C214AF8BD2008A65F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3A2B4C314AF8BD2008A65F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3A2B4CB14AF8BD2008A65F4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3A2B4CC14AF8BD2008A65F4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A3A2B4D414AF8BD2008A65F4 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3A2B4D514AF8BD2008A65F4 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		A3A2B4D714AF8BD2008A65F4 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3A2B4D814AF8BD2008A65F4 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3A2B4DA14AF8BD2008A65F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3A2B4DB14AF8BD2008A65F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A3A2B4DD14AF8BD2008A65F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRecommend/iRecommend-Prefix.pch";
+				INFOPLIST_FILE = "iRecommend/iRecommend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3A2B4DE14AF8BD2008A65F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRecommend/iRecommend-Prefix.pch";
+				INFOPLIST_FILE = "iRecommend/iRecommend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3A2B4AF14AF8BD1008A65F4 /* Build configuration list for PBXProject "iRecommend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A2B4DA14AF8BD2008A65F4 /* Debug */,
+				A3A2B4DB14AF8BD2008A65F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A2B4DC14AF8BD2008A65F4 /* Build configuration list for PBXNativeTarget "iRecommend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A2B4DD14AF8BD2008A65F4 /* Debug */,
+				A3A2B4DE14AF8BD2008A65F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A2B4AC14AF8BD1008A65F4 /* Project object */;
+}
