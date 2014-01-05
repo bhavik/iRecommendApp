@@ -7,37 +7,284 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3107C1615012BC200C54F37 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3107C1415012BC200C54F37 /* CategoryViewController.m */; };
+		A3107C1715012BC200C54F37 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3107C1515012BC200C54F37 /* CategoryViewController.xib */; };
+		A3107C1C150141A900C54F37 /* BooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3107C1A150141A900C54F37 /* BooksViewController.m */; };
+		A3107C1D150141A900C54F37 /* BooksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3107C1B150141A900C54F37 /* BooksViewController.xib */; };
+		A324F89614BA2FF600E6DC78 /* Recommendations.m in Sources */ = {isa = PBXBuildFile; fileRef = A324F89514BA2FF600E6DC78 /* Recommendations.m */; };
+		A324F89914BA2FF700E6DC78 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A324F89814BA2FF700E6DC78 /* User.m */; };
+		A34BAC6015155DD9004AD4A2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A34BAC5F15155DD9004AD4A2 /* Constants.m */; };
+		A34ED53F150BC5610080A5C1 /* GTLBooksAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED520150BC5610080A5C1 /* GTLBooksAnnotation.m */; };
+		A34ED540150BC5610080A5C1 /* GTLBooksAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED522150BC5610080A5C1 /* GTLBooksAnnotations.m */; };
+		A34ED541150BC5610080A5C1 /* GTLBooksAnnotationsRange.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED524150BC5610080A5C1 /* GTLBooksAnnotationsRange.m */; };
+		A34ED542150BC5610080A5C1 /* GTLBooksBookshelf.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED526150BC5610080A5C1 /* GTLBooksBookshelf.m */; };
+		A34ED543150BC5610080A5C1 /* GTLBooksBookshelves.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED528150BC5610080A5C1 /* GTLBooksBookshelves.m */; };
+		A34ED544150BC5610080A5C1 /* GTLBooksConcurrentAccessRestriction.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED52A150BC5610080A5C1 /* GTLBooksConcurrentAccessRestriction.m */; };
+		A34ED545150BC5610080A5C1 /* GTLBooksConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED52C150BC5610080A5C1 /* GTLBooksConstants.m */; };
+		A34ED546150BC5610080A5C1 /* GTLBooksDownloadAccesses.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED52E150BC5610080A5C1 /* GTLBooksDownloadAccesses.m */; };
+		A34ED547150BC5610080A5C1 /* GTLBooksDownloadAccessRestriction.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED530150BC5610080A5C1 /* GTLBooksDownloadAccessRestriction.m */; };
+		A34ED548150BC5610080A5C1 /* GTLBooksReadingPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED532150BC5610080A5C1 /* GTLBooksReadingPosition.m */; };
+		A34ED549150BC5610080A5C1 /* GTLBooksRequestAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED534150BC5610080A5C1 /* GTLBooksRequestAccess.m */; };
+		A34ED54A150BC5610080A5C1 /* GTLBooksReview.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED536150BC5610080A5C1 /* GTLBooksReview.m */; };
+		A34ED54B150BC5610080A5C1 /* GTLBooksVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED538150BC5610080A5C1 /* GTLBooksVolume.m */; };
+		A34ED54C150BC5610080A5C1 /* GTLBooksVolumes.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED53A150BC5610080A5C1 /* GTLBooksVolumes.m */; };
+		A34ED54D150BC5610080A5C1 /* GTLQueryBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED53C150BC5610080A5C1 /* GTLQueryBooks.m */; };
+		A34ED54E150BC5610080A5C1 /* GTLServiceBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED53E150BC5610080A5C1 /* GTLServiceBooks.m */; };
+		A34ED562150BC57F0080A5C1 /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED551150BC57F0080A5C1 /* GTLBatchQuery.m */; };
+		A34ED563150BC57F0080A5C1 /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED553150BC57F0080A5C1 /* GTLBatchResult.m */; };
+		A34ED564150BC57F0080A5C1 /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED555150BC57F0080A5C1 /* GTLDateTime.m */; };
+		A34ED565150BC57F0080A5C1 /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED557150BC57F0080A5C1 /* GTLErrorObject.m */; };
+		A34ED566150BC57F0080A5C1 /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED559150BC57F0080A5C1 /* GTLObject.m */; };
+		A34ED567150BC57F0080A5C1 /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED55B150BC57F0080A5C1 /* GTLQuery.m */; };
+		A34ED568150BC57F0080A5C1 /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED55D150BC57F0080A5C1 /* GTLRuntimeCommon.m */; };
+		A34ED569150BC57F0080A5C1 /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED55F150BC57F0080A5C1 /* GTLService.m */; };
+		A34ED56A150BC57F0080A5C1 /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED561150BC57F0080A5C1 /* GTLUploadParameters.m */; };
+		A34ED573150BC5FE0080A5C1 /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED56D150BC5FE0080A5C1 /* GTLFramework.m */; };
+		A34ED575150BC5FE0080A5C1 /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED572150BC5FE0080A5C1 /* GTLUtilities.m */; };
+		A34ED59F150BC6940080A5C1 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED579150BC6940080A5C1 /* GTMGatherInputStream.m */; };
+		A34ED5A0150BC6940080A5C1 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED57B150BC6940080A5C1 /* GTMHTTPFetcher.m */; };
+		A34ED5A1150BC6940080A5C1 /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED580150BC6940080A5C1 /* GTMHTTPFetcherLogging.m */; };
+		A34ED5A2150BC6940080A5C1 /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED582150BC6940080A5C1 /* GTMHTTPFetcherService.m */; };
+		A34ED5A3150BC6940080A5C1 /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED584150BC6940080A5C1 /* GTMHTTPFetchHistory.m */; };
+		A34ED5A4150BC6940080A5C1 /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED586150BC6940080A5C1 /* GTMHTTPUploadFetcher.m */; };
+		A34ED5A5150BC6940080A5C1 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED588150BC6940080A5C1 /* GTMMIMEDocument.m */; };
+		A34ED5A6150BC6940080A5C1 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED58A150BC6940080A5C1 /* GTMReadMonitorInputStream.m */; };
+		A34ED5A7150BC6940080A5C1 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A34ED58B150BC6940080A5C1 /* ReleaseNotes.txt */; };
+		A34ED5B3150BC6940080A5C1 /* UnitTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34ED59B150BC6940080A5C1 /* UnitTests-Info.plist */; };
+		A34ED5BB150BC7FA0080A5C1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34ED5BA150BC7FA0080A5C1 /* CoreFoundation.framework */; };
+		A34ED5BD150BC83C0080A5C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34ED5BC150BC83B0080A5C1 /* SystemConfiguration.framework */; };
+		A34ED5C0150BC89D0080A5C1 /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED5BF150BC89D0080A5C1 /* GTLJSONParser.m */; };
+		A34ED5C9150BC9130080A5C1 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED5C4150BC9130080A5C1 /* NSObject+SBJSON.m */; };
+		A34ED5CA150BC9130080A5C1 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED5C6150BC9130080A5C1 /* NSString+SBJSON.m */; };
+		A34ED5CB150BC9130080A5C1 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED5C8150BC9130080A5C1 /* SBJSON.m */; };
+		A34ED5CF150BE48C0080A5C1 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED5CD150BE48C0080A5C1 /* MoviesViewController.m */; };
+		A34ED5D0150BE48C0080A5C1 /* MoviesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34ED5CE150BE48C0080A5C1 /* MoviesViewController.xib */; };
+		A34ED5D4150BEB2E0080A5C1 /* BooksMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED5D2150BEB2D0080A5C1 /* BooksMoreViewController.m */; };
+		A34ED5D5150BEB2E0080A5C1 /* BooksMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34ED5D3150BEB2D0080A5C1 /* BooksMoreViewController.xib */; };
+		A34ED5D9150CEFFF0080A5C1 /* BooksResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED5D7150CEFFE0080A5C1 /* BooksResultsViewController.m */; };
+		A34ED5DA150CEFFF0080A5C1 /* BooksResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34ED5D8150CEFFF0080A5C1 /* BooksResultsViewController.xib */; };
+		A34ED5DE150D1F9D0080A5C1 /* BooksDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34ED5DC150D1F9C0080A5C1 /* BooksDetailViewController.m */; };
+		A34ED5DF150D1F9D0080A5C1 /* BooksDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34ED5DD150D1F9C0080A5C1 /* BooksDetailViewController.xib */; };
+		A3596C27150ABDC100D92ECD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3596C26150ABDC100D92ECD /* CoreData.framework */; };
+		A363427014BA3EE000CD41C5 /* AddRecommendationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A363426E14BA3EE000CD41C5 /* AddRecommendationsView.m */; };
+		A363427114BA3EE000CD41C5 /* AddRecommendationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A363426F14BA3EE000CD41C5 /* AddRecommendationsView.xib */; };
+		A37F2B99152759090056CC28 /* MyRecommendations.m in Sources */ = {isa = PBXBuildFile; fileRef = A37F2B97152759080056CC28 /* MyRecommendations.m */; };
+		A37F2B9A152759090056CC28 /* MyRecommendations.xib in Resources */ = {isa = PBXBuildFile; fileRef = A37F2B98152759090056CC28 /* MyRecommendations.xib */; };
 		A3A2B4BA14AF8BD2008A65F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A2B4B914AF8BD2008A65F4 /* UIKit.framework */; };
 		A3A2B4BC14AF8BD2008A65F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A2B4BB14AF8BD2008A65F4 /* Foundation.framework */; };
-		A3A2B4BE14AF8BD2008A65F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A2B4BD14AF8BD2008A65F4 /* CoreGraphics.framework */; };
 		A3A2B4C414AF8BD2008A65F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4C214AF8BD2008A65F4 /* InfoPlist.strings */; };
 		A3A2B4C714AF8BD2008A65F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4C614AF8BD2008A65F4 /* main.m */; };
 		A3A2B4CA14AF8BD2008A65F4 /* iRecommendAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4C914AF8BD2008A65F4 /* iRecommendAppDelegate.m */; };
 		A3A2B4CD14AF8BD2008A65F4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4CB14AF8BD2008A65F4 /* MainWindow.xib */; };
-		A3A2B4D014AF8BD2008A65F4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4CF14AF8BD2008A65F4 /* FirstViewController.m */; };
-		A3A2B4D314AF8BD2008A65F4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4D214AF8BD2008A65F4 /* SecondViewController.m */; };
-		A3A2B4D614AF8BD2008A65F4 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4D414AF8BD2008A65F4 /* FirstView.xib */; };
-		A3A2B4D914AF8BD2008A65F4 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4D714AF8BD2008A65F4 /* SecondView.xib */; };
+		A3A2B4D014AF8BD2008A65F4 /* FriendsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4CF14AF8BD2008A65F4 /* FriendsView.m */; };
+		A3A2B4D314AF8BD2008A65F4 /* RecommendView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4D214AF8BD2008A65F4 /* RecommendView.m */; };
+		A3A2B4D614AF8BD2008A65F4 /* FriendsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4D414AF8BD2008A65F4 /* FriendsView.xib */; };
+		A3A2B4D914AF8BD2008A65F4 /* RecommendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4D714AF8BD2008A65F4 /* RecommendView.xib */; };
+		A3A2B4E214AF8D47008A65F4 /* LeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A2B4E014AF8D47008A65F4 /* LeaderView.m */; };
+		A3A2B4E314AF8D47008A65F4 /* LeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A2B4E114AF8D47008A65F4 /* LeaderView.xib */; };
+		A3CA81CA152F420F00B9A6BA /* ResultsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA81C8152F420F00B9A6BA /* ResultsDetailViewController.m */; };
+		A3CA81CB152F420F00B9A6BA /* ResultsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3CA81C9152F420F00B9A6BA /* ResultsDetailViewController.xib */; };
+		A3DDDCC814F968D900765893 /* RecCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DDDCC714F968D900765893 /* RecCategory.m */; };
+		A3ED331614B40DF000166982 /* rec.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3ED331414B40DF000166982 /* rec.xcdatamodeld */; };
+		A3F138B715278D21003EB9F1 /* GTLLatitudeConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F138AE15278D21003EB9F1 /* GTLLatitudeConstants.m */; };
+		A3F138B815278D21003EB9F1 /* GTLLatitudeLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F138B015278D21003EB9F1 /* GTLLatitudeLocation.m */; };
+		A3F138B915278D21003EB9F1 /* GTLLatitudeLocationFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F138B215278D21003EB9F1 /* GTLLatitudeLocationFeed.m */; };
+		A3F138BA15278D21003EB9F1 /* GTLQueryLatitude.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F138B415278D21003EB9F1 /* GTLQueryLatitude.m */; };
+		A3F138BB15278D21003EB9F1 /* GTLServiceLatitude.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F138B615278D21003EB9F1 /* GTLServiceLatitude.m */; };
+		A3F138BF15279C60003EB9F1 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F138BD15279C5F003EB9F1 /* ResultsViewController.m */; };
+		A3F138C015279C60003EB9F1 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F138BE15279C5F003EB9F1 /* ResultsViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A34ED4F9150BB6080080A5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34ED4F4150BB6080080A5C1 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLFramework;
+		};
+		A34ED4FB150BB6080080A5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34ED4F4150BB6080080A5C1 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A35A6CD515041FC000008C49;
+			remoteInfo = GTLTouchStaticLib;
+		};
+		A34ED5B6150BC6940080A5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34ED57C150BC6940080A5C1 /* GTMHTTPFetcher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = GTMHTTPFetcherLib;
+		};
+		A34ED5B8150BC6940080A5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34ED57C150BC6940080A5C1 /* GTMHTTPFetcher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F74D92F11E68BD300F2D927;
+			remoteInfo = UnitTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A3107C1315012BC200C54F37 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryViewController.h; path = ../CategoryViewController.h; sourceTree = "<group>"; };
+		A3107C1415012BC200C54F37 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryViewController.m; path = ../CategoryViewController.m; sourceTree = "<group>"; };
+		A3107C1515012BC200C54F37 /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoryViewController.xib; path = ../CategoryViewController.xib; sourceTree = "<group>"; };
+		A3107C19150141A900C54F37 /* BooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksViewController.h; sourceTree = "<group>"; };
+		A3107C1A150141A900C54F37 /* BooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksViewController.m; sourceTree = "<group>"; };
+		A3107C1B150141A900C54F37 /* BooksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BooksViewController.xib; sourceTree = "<group>"; };
+		A324F89414BA2FF600E6DC78 /* Recommendations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recommendations.h; sourceTree = "<group>"; };
+		A324F89514BA2FF600E6DC78 /* Recommendations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recommendations.m; sourceTree = "<group>"; };
+		A324F89714BA2FF700E6DC78 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A324F89814BA2FF700E6DC78 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A34BAC5E15155D67004AD4A2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A34BAC5F15155DD9004AD4A2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		A34ED4F4150BB6080080A5C1 /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTL.xcodeproj; path = "../google-api-objectivec-client-read-only/Source/GTL.xcodeproj"; sourceTree = "<group>"; };
+		A34ED51E150BC5610080A5C1 /* GTLBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooks.h; sourceTree = "<group>"; };
+		A34ED51F150BC5610080A5C1 /* GTLBooksAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksAnnotation.h; sourceTree = "<group>"; };
+		A34ED520150BC5610080A5C1 /* GTLBooksAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksAnnotation.m; sourceTree = "<group>"; };
+		A34ED521150BC5610080A5C1 /* GTLBooksAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksAnnotations.h; sourceTree = "<group>"; };
+		A34ED522150BC5610080A5C1 /* GTLBooksAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksAnnotations.m; sourceTree = "<group>"; };
+		A34ED523150BC5610080A5C1 /* GTLBooksAnnotationsRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksAnnotationsRange.h; sourceTree = "<group>"; };
+		A34ED524150BC5610080A5C1 /* GTLBooksAnnotationsRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksAnnotationsRange.m; sourceTree = "<group>"; };
+		A34ED525150BC5610080A5C1 /* GTLBooksBookshelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksBookshelf.h; sourceTree = "<group>"; };
+		A34ED526150BC5610080A5C1 /* GTLBooksBookshelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksBookshelf.m; sourceTree = "<group>"; };
+		A34ED527150BC5610080A5C1 /* GTLBooksBookshelves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksBookshelves.h; sourceTree = "<group>"; };
+		A34ED528150BC5610080A5C1 /* GTLBooksBookshelves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksBookshelves.m; sourceTree = "<group>"; };
+		A34ED529150BC5610080A5C1 /* GTLBooksConcurrentAccessRestriction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksConcurrentAccessRestriction.h; sourceTree = "<group>"; };
+		A34ED52A150BC5610080A5C1 /* GTLBooksConcurrentAccessRestriction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksConcurrentAccessRestriction.m; sourceTree = "<group>"; };
+		A34ED52B150BC5610080A5C1 /* GTLBooksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksConstants.h; sourceTree = "<group>"; };
+		A34ED52C150BC5610080A5C1 /* GTLBooksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksConstants.m; sourceTree = "<group>"; };
+		A34ED52D150BC5610080A5C1 /* GTLBooksDownloadAccesses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksDownloadAccesses.h; sourceTree = "<group>"; };
+		A34ED52E150BC5610080A5C1 /* GTLBooksDownloadAccesses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksDownloadAccesses.m; sourceTree = "<group>"; };
+		A34ED52F150BC5610080A5C1 /* GTLBooksDownloadAccessRestriction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksDownloadAccessRestriction.h; sourceTree = "<group>"; };
+		A34ED530150BC5610080A5C1 /* GTLBooksDownloadAccessRestriction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksDownloadAccessRestriction.m; sourceTree = "<group>"; };
+		A34ED531150BC5610080A5C1 /* GTLBooksReadingPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksReadingPosition.h; sourceTree = "<group>"; };
+		A34ED532150BC5610080A5C1 /* GTLBooksReadingPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksReadingPosition.m; sourceTree = "<group>"; };
+		A34ED533150BC5610080A5C1 /* GTLBooksRequestAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksRequestAccess.h; sourceTree = "<group>"; };
+		A34ED534150BC5610080A5C1 /* GTLBooksRequestAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksRequestAccess.m; sourceTree = "<group>"; };
+		A34ED535150BC5610080A5C1 /* GTLBooksReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksReview.h; sourceTree = "<group>"; };
+		A34ED536150BC5610080A5C1 /* GTLBooksReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksReview.m; sourceTree = "<group>"; };
+		A34ED537150BC5610080A5C1 /* GTLBooksVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksVolume.h; sourceTree = "<group>"; };
+		A34ED538150BC5610080A5C1 /* GTLBooksVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksVolume.m; sourceTree = "<group>"; };
+		A34ED539150BC5610080A5C1 /* GTLBooksVolumes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBooksVolumes.h; sourceTree = "<group>"; };
+		A34ED53A150BC5610080A5C1 /* GTLBooksVolumes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBooksVolumes.m; sourceTree = "<group>"; };
+		A34ED53B150BC5610080A5C1 /* GTLQueryBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryBooks.h; sourceTree = "<group>"; };
+		A34ED53C150BC5610080A5C1 /* GTLQueryBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryBooks.m; sourceTree = "<group>"; };
+		A34ED53D150BC5610080A5C1 /* GTLServiceBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceBooks.h; sourceTree = "<group>"; };
+		A34ED53E150BC5610080A5C1 /* GTLServiceBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceBooks.m; sourceTree = "<group>"; };
+		A34ED550150BC57F0080A5C1 /* GTLBatchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchQuery.h; sourceTree = "<group>"; };
+		A34ED551150BC57F0080A5C1 /* GTLBatchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchQuery.m; sourceTree = "<group>"; };
+		A34ED552150BC57F0080A5C1 /* GTLBatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchResult.h; sourceTree = "<group>"; };
+		A34ED553150BC57F0080A5C1 /* GTLBatchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchResult.m; sourceTree = "<group>"; };
+		A34ED554150BC57F0080A5C1 /* GTLDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDateTime.h; sourceTree = "<group>"; };
+		A34ED555150BC57F0080A5C1 /* GTLDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDateTime.m; sourceTree = "<group>"; };
+		A34ED556150BC57F0080A5C1 /* GTLErrorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLErrorObject.h; sourceTree = "<group>"; };
+		A34ED557150BC57F0080A5C1 /* GTLErrorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLErrorObject.m; sourceTree = "<group>"; };
+		A34ED558150BC57F0080A5C1 /* GTLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLObject.h; sourceTree = "<group>"; };
+		A34ED559150BC57F0080A5C1 /* GTLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLObject.m; sourceTree = "<group>"; };
+		A34ED55A150BC57F0080A5C1 /* GTLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuery.h; sourceTree = "<group>"; };
+		A34ED55B150BC57F0080A5C1 /* GTLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuery.m; sourceTree = "<group>"; };
+		A34ED55C150BC57F0080A5C1 /* GTLRuntimeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRuntimeCommon.h; sourceTree = "<group>"; };
+		A34ED55D150BC57F0080A5C1 /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRuntimeCommon.m; sourceTree = "<group>"; };
+		A34ED55E150BC57F0080A5C1 /* GTLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLService.h; sourceTree = "<group>"; };
+		A34ED55F150BC57F0080A5C1 /* GTLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLService.m; sourceTree = "<group>"; };
+		A34ED560150BC57F0080A5C1 /* GTLUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUploadParameters.h; sourceTree = "<group>"; };
+		A34ED561150BC57F0080A5C1 /* GTLUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUploadParameters.m; sourceTree = "<group>"; };
+		A34ED56C150BC5FE0080A5C1 /* GTLFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLFramework.h; sourceTree = "<group>"; };
+		A34ED56D150BC5FE0080A5C1 /* GTLFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLFramework.m; sourceTree = "<group>"; };
+		A34ED570150BC5FE0080A5C1 /* GTLTargetNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLTargetNamespace.h; sourceTree = "<group>"; };
+		A34ED571150BC5FE0080A5C1 /* GTLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUtilities.h; sourceTree = "<group>"; };
+		A34ED572150BC5FE0080A5C1 /* GTLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUtilities.m; sourceTree = "<group>"; };
+		A34ED576150BC67D0080A5C1 /* GTLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLDefines.h; path = "../google-api-objectivec-client-read-only/Source/GTLDefines.h"; sourceTree = "<group>"; };
+		A34ED578150BC6940080A5C1 /* GTMGatherInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGatherInputStream.h; sourceTree = "<group>"; };
+		A34ED579150BC6940080A5C1 /* GTMGatherInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMGatherInputStream.m; sourceTree = "<group>"; };
+		A34ED57A150BC6940080A5C1 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		A34ED57B150BC6940080A5C1 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		A34ED57C150BC6940080A5C1 /* GTMHTTPFetcher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GTMHTTPFetcher.xcodeproj; sourceTree = "<group>"; };
+		A34ED57F150BC6940080A5C1 /* GTMHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherLogging.h; sourceTree = "<group>"; };
+		A34ED580150BC6940080A5C1 /* GTMHTTPFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherLogging.m; sourceTree = "<group>"; };
+		A34ED581150BC6940080A5C1 /* GTMHTTPFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherService.h; sourceTree = "<group>"; };
+		A34ED582150BC6940080A5C1 /* GTMHTTPFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherService.m; sourceTree = "<group>"; };
+		A34ED583150BC6940080A5C1 /* GTMHTTPFetchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetchHistory.h; sourceTree = "<group>"; };
+		A34ED584150BC6940080A5C1 /* GTMHTTPFetchHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetchHistory.m; sourceTree = "<group>"; };
+		A34ED585150BC6940080A5C1 /* GTMHTTPUploadFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPUploadFetcher.h; sourceTree = "<group>"; };
+		A34ED586150BC6940080A5C1 /* GTMHTTPUploadFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPUploadFetcher.m; sourceTree = "<group>"; };
+		A34ED587150BC6940080A5C1 /* GTMMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMIMEDocument.h; sourceTree = "<group>"; };
+		A34ED588150BC6940080A5C1 /* GTMMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMIMEDocument.m; sourceTree = "<group>"; };
+		A34ED589150BC6940080A5C1 /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
+		A34ED58A150BC6940080A5C1 /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
+		A34ED58B150BC6940080A5C1 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		A34ED59B150BC6940080A5C1 /* UnitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		A34ED5BA150BC7FA0080A5C1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A34ED5BC150BC83B0080A5C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A34ED5BE150BC89D0080A5C1 /* GTLJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLJSONParser.h; path = "../../google-api-objectivec-client-read-only/Source/Utilities/GTLJSONParser.h"; sourceTree = "<group>"; };
+		A34ED5BF150BC89D0080A5C1 /* GTLJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLJSONParser.m; path = "../../google-api-objectivec-client-read-only/Source/Utilities/GTLJSONParser.m"; sourceTree = "<group>"; };
+		A34ED5C2150BC9130080A5C1 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		A34ED5C3150BC9130080A5C1 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		A34ED5C4150BC9130080A5C1 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		A34ED5C5150BC9130080A5C1 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		A34ED5C6150BC9130080A5C1 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		A34ED5C7150BC9130080A5C1 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		A34ED5C8150BC9130080A5C1 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		A34ED5CC150BE48C0080A5C1 /* MoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		A34ED5CD150BE48C0080A5C1 /* MoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
+		A34ED5CE150BE48C0080A5C1 /* MoviesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviesViewController.xib; sourceTree = "<group>"; };
+		A34ED5D1150BEB2D0080A5C1 /* BooksMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksMoreViewController.h; sourceTree = "<group>"; };
+		A34ED5D2150BEB2D0080A5C1 /* BooksMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksMoreViewController.m; sourceTree = "<group>"; };
+		A34ED5D3150BEB2D0080A5C1 /* BooksMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BooksMoreViewController.xib; sourceTree = "<group>"; };
+		A34ED5D6150CEFFE0080A5C1 /* BooksResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksResultsViewController.h; sourceTree = "<group>"; };
+		A34ED5D7150CEFFE0080A5C1 /* BooksResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksResultsViewController.m; sourceTree = "<group>"; };
+		A34ED5D8150CEFFF0080A5C1 /* BooksResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BooksResultsViewController.xib; sourceTree = "<group>"; };
+		A34ED5DB150D1F9B0080A5C1 /* BooksDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksDetailViewController.h; sourceTree = "<group>"; };
+		A34ED5DC150D1F9C0080A5C1 /* BooksDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksDetailViewController.m; sourceTree = "<group>"; };
+		A34ED5DD150D1F9C0080A5C1 /* BooksDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BooksDetailViewController.xib; sourceTree = "<group>"; };
+		A3596C26150ABDC100D92ECD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A363426D14BA3EE000CD41C5 /* AddRecommendationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecommendationsView.h; sourceTree = "<group>"; };
+		A363426E14BA3EE000CD41C5 /* AddRecommendationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecommendationsView.m; sourceTree = "<group>"; };
+		A363426F14BA3EE000CD41C5 /* AddRecommendationsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddRecommendationsView.xib; sourceTree = "<group>"; };
+		A37F2B96152759080056CC28 /* MyRecommendations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRecommendations.h; sourceTree = "<group>"; };
+		A37F2B97152759080056CC28 /* MyRecommendations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRecommendations.m; sourceTree = "<group>"; };
+		A37F2B98152759090056CC28 /* MyRecommendations.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyRecommendations.xib; sourceTree = "<group>"; };
 		A3A2B4B514AF8BD1008A65F4 /* iRecommend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRecommend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A2B4B914AF8BD2008A65F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3A2B4BB14AF8BD2008A65F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A3A2B4BD14AF8BD2008A65F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A3A2B4C114AF8BD2008A65F4 /* iRecommend-Info.plist */ = {isa = PBXFileReference; path = "iRecommend-Info.plist"; sourceTree = "<group>"; };
+		A3A2B4C114AF8BD2008A65F4 /* iRecommend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRecommend-Info.plist"; sourceTree = "<group>"; };
 		A3A2B4C314AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A3A2B4C514AF8BD2008A65F4 /* iRecommend-Prefix.pch */ = {isa = PBXFileReference; path = "iRecommend-Prefix.pch"; sourceTree = "<group>"; };
+		A3A2B4C514AF8BD2008A65F4 /* iRecommend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRecommend-Prefix.pch"; sourceTree = "<group>"; };
 		A3A2B4C614AF8BD2008A65F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3A2B4C814AF8BD2008A65F4 /* iRecommendAppDelegate.h */ = {isa = PBXFileReference; path = iRecommendAppDelegate.h; sourceTree = "<group>"; };
+		A3A2B4C814AF8BD2008A65F4 /* iRecommendAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRecommendAppDelegate.h; sourceTree = "<group>"; };
 		A3A2B4C914AF8BD2008A65F4 /* iRecommendAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRecommendAppDelegate.m; sourceTree = "<group>"; };
 		A3A2B4CC14AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A3A2B4CE14AF8BD2008A65F4 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		A3A2B4CF14AF8BD2008A65F4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		A3A2B4D114AF8BD2008A65F4 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		A3A2B4D214AF8BD2008A65F4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		A3A2B4D514AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		A3A2B4D814AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		A3A2B4CE14AF8BD2008A65F4 /* FriendsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsView.h; sourceTree = "<group>"; };
+		A3A2B4CF14AF8BD2008A65F4 /* FriendsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsView.m; sourceTree = "<group>"; };
+		A3A2B4D114AF8BD2008A65F4 /* RecommendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendView.h; sourceTree = "<group>"; };
+		A3A2B4D214AF8BD2008A65F4 /* RecommendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendView.m; sourceTree = "<group>"; };
+		A3A2B4D514AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FriendsView.xib; sourceTree = "<group>"; };
+		A3A2B4D814AF8BD2008A65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RecommendView.xib; sourceTree = "<group>"; };
+		A3A2B4DF14AF8D47008A65F4 /* LeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaderView.h; path = ../LeaderView.h; sourceTree = "<group>"; };
+		A3A2B4E014AF8D47008A65F4 /* LeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaderView.m; path = ../LeaderView.m; sourceTree = "<group>"; };
+		A3A2B4E114AF8D47008A65F4 /* LeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeaderView.xib; path = ../LeaderView.xib; sourceTree = "<group>"; };
+		A3CA81C7152F420F00B9A6BA /* ResultsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsDetailViewController.h; sourceTree = "<group>"; };
+		A3CA81C8152F420F00B9A6BA /* ResultsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsDetailViewController.m; sourceTree = "<group>"; };
+		A3CA81C9152F420F00B9A6BA /* ResultsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsDetailViewController.xib; sourceTree = "<group>"; };
+		A3DDDCC614F968D900765893 /* RecCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecCategory.h; sourceTree = "<group>"; };
+		A3DDDCC714F968D900765893 /* RecCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecCategory.m; sourceTree = "<group>"; };
+		A3ED331514B40DF000166982 /* rec.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rec.xcdatamodel; sourceTree = "<group>"; };
+		A3F138AC15278D21003EB9F1 /* GTLLatitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLLatitude.h; sourceTree = "<group>"; };
+		A3F138AD15278D21003EB9F1 /* GTLLatitudeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLLatitudeConstants.h; sourceTree = "<group>"; };
+		A3F138AE15278D21003EB9F1 /* GTLLatitudeConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLLatitudeConstants.m; sourceTree = "<group>"; };
+		A3F138AF15278D21003EB9F1 /* GTLLatitudeLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLLatitudeLocation.h; sourceTree = "<group>"; };
+		A3F138B015278D21003EB9F1 /* GTLLatitudeLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLLatitudeLocation.m; sourceTree = "<group>"; };
+		A3F138B115278D21003EB9F1 /* GTLLatitudeLocationFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLLatitudeLocationFeed.h; sourceTree = "<group>"; };
+		A3F138B215278D21003EB9F1 /* GTLLatitudeLocationFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLLatitudeLocationFeed.m; sourceTree = "<group>"; };
+		A3F138B315278D21003EB9F1 /* GTLQueryLatitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryLatitude.h; sourceTree = "<group>"; };
+		A3F138B415278D21003EB9F1 /* GTLQueryLatitude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryLatitude.m; sourceTree = "<group>"; };
+		A3F138B515278D21003EB9F1 /* GTLServiceLatitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceLatitude.h; sourceTree = "<group>"; };
+		A3F138B615278D21003EB9F1 /* GTLServiceLatitude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceLatitude.m; sourceTree = "<group>"; };
+		A3F138BC15279C5E003EB9F1 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		A3F138BD15279C5F003EB9F1 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		A3F138BE15279C5F003EB9F1 /* ResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,19 +292,174 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34ED5BD150BC83C0080A5C1 /* SystemConfiguration.framework in Frameworks */,
+				A34ED5BB150BC7FA0080A5C1 /* CoreFoundation.framework in Frameworks */,
+				A3596C27150ABDC100D92ECD /* CoreData.framework in Frameworks */,
 				A3A2B4BA14AF8BD2008A65F4 /* UIKit.framework in Frameworks */,
 				A3A2B4BC14AF8BD2008A65F4 /* Foundation.framework in Frameworks */,
-				A3A2B4BE14AF8BD2008A65F4 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A34ED4F5150BB6080080A5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED4FA150BB6080080A5C1 /* GTL */,
+				A34ED4FC150BB6080080A5C1 /* libGTLTouchStaticLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34ED51C150BC5610080A5C1 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED51D150BC5610080A5C1 /* Generated */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		A34ED51D150BC5610080A5C1 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED51E150BC5610080A5C1 /* GTLBooks.h */,
+				A34ED51F150BC5610080A5C1 /* GTLBooksAnnotation.h */,
+				A34ED520150BC5610080A5C1 /* GTLBooksAnnotation.m */,
+				A34ED521150BC5610080A5C1 /* GTLBooksAnnotations.h */,
+				A34ED522150BC5610080A5C1 /* GTLBooksAnnotations.m */,
+				A34ED523150BC5610080A5C1 /* GTLBooksAnnotationsRange.h */,
+				A34ED524150BC5610080A5C1 /* GTLBooksAnnotationsRange.m */,
+				A34ED525150BC5610080A5C1 /* GTLBooksBookshelf.h */,
+				A34ED526150BC5610080A5C1 /* GTLBooksBookshelf.m */,
+				A34ED527150BC5610080A5C1 /* GTLBooksBookshelves.h */,
+				A34ED528150BC5610080A5C1 /* GTLBooksBookshelves.m */,
+				A34ED529150BC5610080A5C1 /* GTLBooksConcurrentAccessRestriction.h */,
+				A34ED52A150BC5610080A5C1 /* GTLBooksConcurrentAccessRestriction.m */,
+				A34ED52B150BC5610080A5C1 /* GTLBooksConstants.h */,
+				A34ED52C150BC5610080A5C1 /* GTLBooksConstants.m */,
+				A34ED52D150BC5610080A5C1 /* GTLBooksDownloadAccesses.h */,
+				A34ED52E150BC5610080A5C1 /* GTLBooksDownloadAccesses.m */,
+				A34ED52F150BC5610080A5C1 /* GTLBooksDownloadAccessRestriction.h */,
+				A34ED530150BC5610080A5C1 /* GTLBooksDownloadAccessRestriction.m */,
+				A34ED531150BC5610080A5C1 /* GTLBooksReadingPosition.h */,
+				A34ED532150BC5610080A5C1 /* GTLBooksReadingPosition.m */,
+				A34ED533150BC5610080A5C1 /* GTLBooksRequestAccess.h */,
+				A34ED534150BC5610080A5C1 /* GTLBooksRequestAccess.m */,
+				A34ED535150BC5610080A5C1 /* GTLBooksReview.h */,
+				A34ED536150BC5610080A5C1 /* GTLBooksReview.m */,
+				A34ED537150BC5610080A5C1 /* GTLBooksVolume.h */,
+				A34ED538150BC5610080A5C1 /* GTLBooksVolume.m */,
+				A34ED539150BC5610080A5C1 /* GTLBooksVolumes.h */,
+				A34ED53A150BC5610080A5C1 /* GTLBooksVolumes.m */,
+				A34ED53B150BC5610080A5C1 /* GTLQueryBooks.h */,
+				A34ED53C150BC5610080A5C1 /* GTLQueryBooks.m */,
+				A34ED53D150BC5610080A5C1 /* GTLServiceBooks.h */,
+				A34ED53E150BC5610080A5C1 /* GTLServiceBooks.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		A34ED54F150BC57F0080A5C1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED550150BC57F0080A5C1 /* GTLBatchQuery.h */,
+				A34ED551150BC57F0080A5C1 /* GTLBatchQuery.m */,
+				A34ED552150BC57F0080A5C1 /* GTLBatchResult.h */,
+				A34ED553150BC57F0080A5C1 /* GTLBatchResult.m */,
+				A34ED554150BC57F0080A5C1 /* GTLDateTime.h */,
+				A34ED555150BC57F0080A5C1 /* GTLDateTime.m */,
+				A34ED556150BC57F0080A5C1 /* GTLErrorObject.h */,
+				A34ED557150BC57F0080A5C1 /* GTLErrorObject.m */,
+				A34ED558150BC57F0080A5C1 /* GTLObject.h */,
+				A34ED559150BC57F0080A5C1 /* GTLObject.m */,
+				A34ED55A150BC57F0080A5C1 /* GTLQuery.h */,
+				A34ED55B150BC57F0080A5C1 /* GTLQuery.m */,
+				A34ED55C150BC57F0080A5C1 /* GTLRuntimeCommon.h */,
+				A34ED55D150BC57F0080A5C1 /* GTLRuntimeCommon.m */,
+				A34ED55E150BC57F0080A5C1 /* GTLService.h */,
+				A34ED55F150BC57F0080A5C1 /* GTLService.m */,
+				A34ED560150BC57F0080A5C1 /* GTLUploadParameters.h */,
+				A34ED561150BC57F0080A5C1 /* GTLUploadParameters.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		A34ED56B150BC5FE0080A5C1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED5BE150BC89D0080A5C1 /* GTLJSONParser.h */,
+				A34ED5BF150BC89D0080A5C1 /* GTLJSONParser.m */,
+				A34ED56C150BC5FE0080A5C1 /* GTLFramework.h */,
+				A34ED56D150BC5FE0080A5C1 /* GTLFramework.m */,
+				A34ED570150BC5FE0080A5C1 /* GTLTargetNamespace.h */,
+				A34ED571150BC5FE0080A5C1 /* GTLUtilities.h */,
+				A34ED572150BC5FE0080A5C1 /* GTLUtilities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A34ED577150BC6940080A5C1 /* HTTPFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED578150BC6940080A5C1 /* GTMGatherInputStream.h */,
+				A34ED579150BC6940080A5C1 /* GTMGatherInputStream.m */,
+				A34ED57A150BC6940080A5C1 /* GTMHTTPFetcher.h */,
+				A34ED57B150BC6940080A5C1 /* GTMHTTPFetcher.m */,
+				A34ED57C150BC6940080A5C1 /* GTMHTTPFetcher.xcodeproj */,
+				A34ED57F150BC6940080A5C1 /* GTMHTTPFetcherLogging.h */,
+				A34ED580150BC6940080A5C1 /* GTMHTTPFetcherLogging.m */,
+				A34ED581150BC6940080A5C1 /* GTMHTTPFetcherService.h */,
+				A34ED582150BC6940080A5C1 /* GTMHTTPFetcherService.m */,
+				A34ED583150BC6940080A5C1 /* GTMHTTPFetchHistory.h */,
+				A34ED584150BC6940080A5C1 /* GTMHTTPFetchHistory.m */,
+				A34ED585150BC6940080A5C1 /* GTMHTTPUploadFetcher.h */,
+				A34ED586150BC6940080A5C1 /* GTMHTTPUploadFetcher.m */,
+				A34ED587150BC6940080A5C1 /* GTMMIMEDocument.h */,
+				A34ED588150BC6940080A5C1 /* GTMMIMEDocument.m */,
+				A34ED589150BC6940080A5C1 /* GTMReadMonitorInputStream.h */,
+				A34ED58A150BC6940080A5C1 /* GTMReadMonitorInputStream.m */,
+				A34ED58B150BC6940080A5C1 /* ReleaseNotes.txt */,
+				A34ED59B150BC6940080A5C1 /* UnitTests-Info.plist */,
+			);
+			path = HTTPFetcher;
+			sourceTree = "<group>";
+		};
+		A34ED57D150BC6940080A5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED5B7150BC6940080A5C1 /* libGTMHTTPFetcher.a */,
+				A34ED5B9150BC6940080A5C1 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34ED5C1150BC9130080A5C1 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED5C2150BC9130080A5C1 /* JSON.h */,
+				A34ED5C3150BC9130080A5C1 /* NSObject+SBJSON.h */,
+				A34ED5C4150BC9130080A5C1 /* NSObject+SBJSON.m */,
+				A34ED5C5150BC9130080A5C1 /* NSString+SBJSON.h */,
+				A34ED5C6150BC9130080A5C1 /* NSString+SBJSON.m */,
+				A34ED5C7150BC9130080A5C1 /* SBJSON.h */,
+				A34ED5C8150BC9130080A5C1 /* SBJSON.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		A3A2B4AA14AF8BD1008A65F4 = {
 			isa = PBXGroup;
 			children = (
+				A34ED5C1150BC9130080A5C1 /* JSON */,
+				A34ED5BC150BC83B0080A5C1 /* SystemConfiguration.framework */,
+				A34ED5BA150BC7FA0080A5C1 /* CoreFoundation.framework */,
+				A34ED577150BC6940080A5C1 /* HTTPFetcher */,
+				A34ED576150BC67D0080A5C1 /* GTLDefines.h */,
+				A34ED56B150BC5FE0080A5C1 /* Utilities */,
+				A34ED54F150BC57F0080A5C1 /* Objects */,
 				A3A2B4BF14AF8BD2008A65F4 /* iRecommend */,
+				A34ED4F4150BB6080080A5C1 /* GTL.xcodeproj */,
 				A3A2B4B814AF8BD1008A65F4 /* Frameworks */,
 				A3A2B4B614AF8BD1008A65F4 /* Products */,
 			);
@@ -74,9 +476,9 @@
 		A3A2B4B814AF8BD1008A65F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3596C26150ABDC100D92ECD /* CoreData.framework */,
 				A3A2B4B914AF8BD2008A65F4 /* UIKit.framework */,
 				A3A2B4BB14AF8BD2008A65F4 /* Foundation.framework */,
-				A3A2B4BD14AF8BD2008A65F4 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,15 +486,59 @@
 		A3A2B4BF14AF8BD2008A65F4 /* iRecommend */ = {
 			isa = PBXGroup;
 			children = (
+				A3F138AA15278D21003EB9F1 /* Latitude */,
+				A34ED51C150BC5610080A5C1 /* Books */,
+				A3107C1315012BC200C54F37 /* CategoryViewController.h */,
+				A3107C1415012BC200C54F37 /* CategoryViewController.m */,
+				A3107C19150141A900C54F37 /* BooksViewController.h */,
+				A3107C1A150141A900C54F37 /* BooksViewController.m */,
+				A34ED5D1150BEB2D0080A5C1 /* BooksMoreViewController.h */,
+				A37F2B96152759080056CC28 /* MyRecommendations.h */,
+				A37F2B97152759080056CC28 /* MyRecommendations.m */,
+				A37F2B98152759090056CC28 /* MyRecommendations.xib */,
+				A34ED5D2150BEB2D0080A5C1 /* BooksMoreViewController.m */,
+				A34ED5D6150CEFFE0080A5C1 /* BooksResultsViewController.h */,
+				A34ED5D7150CEFFE0080A5C1 /* BooksResultsViewController.m */,
+				A3F138BC15279C5E003EB9F1 /* ResultsViewController.h */,
+				A3F138BD15279C5F003EB9F1 /* ResultsViewController.m */,
+				A3F138BE15279C5F003EB9F1 /* ResultsViewController.xib */,
+				A34ED5DB150D1F9B0080A5C1 /* BooksDetailViewController.h */,
+				A3CA81C7152F420F00B9A6BA /* ResultsDetailViewController.h */,
+				A3CA81C8152F420F00B9A6BA /* ResultsDetailViewController.m */,
+				A3CA81C9152F420F00B9A6BA /* ResultsDetailViewController.xib */,
+				A34ED5DC150D1F9C0080A5C1 /* BooksDetailViewController.m */,
+				A34BAC5E15155D67004AD4A2 /* Constants.h */,
+				A34BAC5F15155DD9004AD4A2 /* Constants.m */,
+				A34ED5DD150D1F9C0080A5C1 /* BooksDetailViewController.xib */,
+				A34ED5D8150CEFFF0080A5C1 /* BooksResultsViewController.xib */,
+				A34ED5D3150BEB2D0080A5C1 /* BooksMoreViewController.xib */,
+				A3107C1B150141A900C54F37 /* BooksViewController.xib */,
+				A3107C1515012BC200C54F37 /* CategoryViewController.xib */,
+				A34ED5CC150BE48C0080A5C1 /* MoviesViewController.h */,
+				A34ED5CD150BE48C0080A5C1 /* MoviesViewController.m */,
+				A34ED5CE150BE48C0080A5C1 /* MoviesViewController.xib */,
+				A3ED331414B40DF000166982 /* rec.xcdatamodeld */,
+				A3DDDCC614F968D900765893 /* RecCategory.h */,
+				A3DDDCC714F968D900765893 /* RecCategory.m */,
+				A324F89714BA2FF700E6DC78 /* User.h */,
+				A324F89814BA2FF700E6DC78 /* User.m */,
+				A324F89414BA2FF600E6DC78 /* Recommendations.h */,
+				A324F89514BA2FF600E6DC78 /* Recommendations.m */,
 				A3A2B4C814AF8BD2008A65F4 /* iRecommendAppDelegate.h */,
 				A3A2B4C914AF8BD2008A65F4 /* iRecommendAppDelegate.m */,
 				A3A2B4CB14AF8BD2008A65F4 /* MainWindow.xib */,
-				A3A2B4CE14AF8BD2008A65F4 /* FirstViewController.h */,
-				A3A2B4CF14AF8BD2008A65F4 /* FirstViewController.m */,
-				A3A2B4D114AF8BD2008A65F4 /* SecondViewController.h */,
-				A3A2B4D214AF8BD2008A65F4 /* SecondViewController.m */,
-				A3A2B4D414AF8BD2008A65F4 /* FirstView.xib */,
-				A3A2B4D714AF8BD2008A65F4 /* SecondView.xib */,
+				A3A2B4CE14AF8BD2008A65F4 /* FriendsView.h */,
+				A3A2B4CF14AF8BD2008A65F4 /* FriendsView.m */,
+				A3A2B4D114AF8BD2008A65F4 /* RecommendView.h */,
+				A3A2B4D214AF8BD2008A65F4 /* RecommendView.m */,
+				A363426D14BA3EE000CD41C5 /* AddRecommendationsView.h */,
+				A363426E14BA3EE000CD41C5 /* AddRecommendationsView.m */,
+				A363426F14BA3EE000CD41C5 /* AddRecommendationsView.xib */,
+				A3A2B4DF14AF8D47008A65F4 /* LeaderView.h */,
+				A3A2B4E014AF8D47008A65F4 /* LeaderView.m */,
+				A3A2B4D414AF8BD2008A65F4 /* FriendsView.xib */,
+				A3A2B4D714AF8BD2008A65F4 /* RecommendView.xib */,
+				A3A2B4E114AF8D47008A65F4 /* LeaderView.xib */,
 				A3A2B4C014AF8BD2008A65F4 /* Supporting Files */,
 			);
 			path = iRecommend;
@@ -107,6 +553,32 @@
 				A3A2B4C614AF8BD2008A65F4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3F138AA15278D21003EB9F1 /* Latitude */ = {
+			isa = PBXGroup;
+			children = (
+				A3F138AB15278D21003EB9F1 /* Generated */,
+			);
+			path = Latitude;
+			sourceTree = "<group>";
+		};
+		A3F138AB15278D21003EB9F1 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				A3F138AC15278D21003EB9F1 /* GTLLatitude.h */,
+				A3F138AD15278D21003EB9F1 /* GTLLatitudeConstants.h */,
+				A3F138AE15278D21003EB9F1 /* GTLLatitudeConstants.m */,
+				A3F138AF15278D21003EB9F1 /* GTLLatitudeLocation.h */,
+				A3F138B015278D21003EB9F1 /* GTLLatitudeLocation.m */,
+				A3F138B115278D21003EB9F1 /* GTLLatitudeLocationFeed.h */,
+				A3F138B215278D21003EB9F1 /* GTLLatitudeLocationFeed.m */,
+				A3F138B315278D21003EB9F1 /* GTLQueryLatitude.h */,
+				A3F138B415278D21003EB9F1 /* GTLQueryLatitude.m */,
+				A3F138B515278D21003EB9F1 /* GTLServiceLatitude.h */,
+				A3F138B615278D21003EB9F1 /* GTLServiceLatitude.m */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,12 +616,53 @@
 			mainGroup = A3A2B4AA14AF8BD1008A65F4;
 			productRefGroup = A3A2B4B614AF8BD1008A65F4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A34ED4F5150BB6080080A5C1 /* Products */;
+					ProjectRef = A34ED4F4150BB6080080A5C1 /* GTL.xcodeproj */;
+				},
+				{
+					ProductGroup = A34ED57D150BC6940080A5C1 /* Products */;
+					ProjectRef = A34ED57C150BC6940080A5C1 /* GTMHTTPFetcher.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A3A2B4B414AF8BD1008A65F4 /* iRecommend */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A34ED4FA150BB6080080A5C1 /* GTL */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL;
+			remoteRef = A34ED4F9150BB6080080A5C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A34ED4FC150BB6080080A5C1 /* libGTLTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTLTouchStaticLib.a;
+			remoteRef = A34ED4FB150BB6080080A5C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A34ED5B7150BC6940080A5C1 /* libGTMHTTPFetcher.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTMHTTPFetcher.a;
+			remoteRef = A34ED5B6150BC6940080A5C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A34ED5B9150BC6940080A5C1 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = A34ED5B8150BC6940080A5C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A3A2B4B314AF8BD1008A65F4 /* Resources */ = {
@@ -158,8 +671,21 @@
 			files = (
 				A3A2B4C414AF8BD2008A65F4 /* InfoPlist.strings in Resources */,
 				A3A2B4CD14AF8BD2008A65F4 /* MainWindow.xib in Resources */,
-				A3A2B4D614AF8BD2008A65F4 /* FirstView.xib in Resources */,
-				A3A2B4D914AF8BD2008A65F4 /* SecondView.xib in Resources */,
+				A3A2B4D614AF8BD2008A65F4 /* FriendsView.xib in Resources */,
+				A3A2B4D914AF8BD2008A65F4 /* RecommendView.xib in Resources */,
+				A3A2B4E314AF8D47008A65F4 /* LeaderView.xib in Resources */,
+				A363427114BA3EE000CD41C5 /* AddRecommendationsView.xib in Resources */,
+				A3107C1715012BC200C54F37 /* CategoryViewController.xib in Resources */,
+				A3107C1D150141A900C54F37 /* BooksViewController.xib in Resources */,
+				A34ED5A7150BC6940080A5C1 /* ReleaseNotes.txt in Resources */,
+				A34ED5B3150BC6940080A5C1 /* UnitTests-Info.plist in Resources */,
+				A34ED5D0150BE48C0080A5C1 /* MoviesViewController.xib in Resources */,
+				A34ED5D5150BEB2E0080A5C1 /* BooksMoreViewController.xib in Resources */,
+				A34ED5DA150CEFFF0080A5C1 /* BooksResultsViewController.xib in Resources */,
+				A34ED5DF150D1F9D0080A5C1 /* BooksDetailViewController.xib in Resources */,
+				A37F2B9A152759090056CC28 /* MyRecommendations.xib in Resources */,
+				A3F138C015279C60003EB9F1 /* ResultsViewController.xib in Resources */,
+				A3CA81CB152F420F00B9A6BA /* ResultsDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +698,68 @@
 			files = (
 				A3A2B4C714AF8BD2008A65F4 /* main.m in Sources */,
 				A3A2B4CA14AF8BD2008A65F4 /* iRecommendAppDelegate.m in Sources */,
-				A3A2B4D014AF8BD2008A65F4 /* FirstViewController.m in Sources */,
-				A3A2B4D314AF8BD2008A65F4 /* SecondViewController.m in Sources */,
+				A3A2B4D014AF8BD2008A65F4 /* FriendsView.m in Sources */,
+				A3A2B4D314AF8BD2008A65F4 /* RecommendView.m in Sources */,
+				A3A2B4E214AF8D47008A65F4 /* LeaderView.m in Sources */,
+				A3ED331614B40DF000166982 /* rec.xcdatamodeld in Sources */,
+				A324F89614BA2FF600E6DC78 /* Recommendations.m in Sources */,
+				A324F89914BA2FF700E6DC78 /* User.m in Sources */,
+				A363427014BA3EE000CD41C5 /* AddRecommendationsView.m in Sources */,
+				A3DDDCC814F968D900765893 /* RecCategory.m in Sources */,
+				A3107C1615012BC200C54F37 /* CategoryViewController.m in Sources */,
+				A3107C1C150141A900C54F37 /* BooksViewController.m in Sources */,
+				A34ED53F150BC5610080A5C1 /* GTLBooksAnnotation.m in Sources */,
+				A34ED540150BC5610080A5C1 /* GTLBooksAnnotations.m in Sources */,
+				A34ED541150BC5610080A5C1 /* GTLBooksAnnotationsRange.m in Sources */,
+				A34ED542150BC5610080A5C1 /* GTLBooksBookshelf.m in Sources */,
+				A34ED543150BC5610080A5C1 /* GTLBooksBookshelves.m in Sources */,
+				A34ED544150BC5610080A5C1 /* GTLBooksConcurrentAccessRestriction.m in Sources */,
+				A34ED545150BC5610080A5C1 /* GTLBooksConstants.m in Sources */,
+				A34ED546150BC5610080A5C1 /* GTLBooksDownloadAccesses.m in Sources */,
+				A34ED547150BC5610080A5C1 /* GTLBooksDownloadAccessRestriction.m in Sources */,
+				A34ED548150BC5610080A5C1 /* GTLBooksReadingPosition.m in Sources */,
+				A34ED549150BC5610080A5C1 /* GTLBooksRequestAccess.m in Sources */,
+				A34ED54A150BC5610080A5C1 /* GTLBooksReview.m in Sources */,
+				A34ED54B150BC5610080A5C1 /* GTLBooksVolume.m in Sources */,
+				A34ED54C150BC5610080A5C1 /* GTLBooksVolumes.m in Sources */,
+				A34ED54D150BC5610080A5C1 /* GTLQueryBooks.m in Sources */,
+				A34ED54E150BC5610080A5C1 /* GTLServiceBooks.m in Sources */,
+				A34ED562150BC57F0080A5C1 /* GTLBatchQuery.m in Sources */,
+				A34ED563150BC57F0080A5C1 /* GTLBatchResult.m in Sources */,
+				A34ED564150BC57F0080A5C1 /* GTLDateTime.m in Sources */,
+				A34ED565150BC57F0080A5C1 /* GTLErrorObject.m in Sources */,
+				A34ED566150BC57F0080A5C1 /* GTLObject.m in Sources */,
+				A34ED567150BC57F0080A5C1 /* GTLQuery.m in Sources */,
+				A34ED568150BC57F0080A5C1 /* GTLRuntimeCommon.m in Sources */,
+				A34ED569150BC57F0080A5C1 /* GTLService.m in Sources */,
+				A34ED56A150BC57F0080A5C1 /* GTLUploadParameters.m in Sources */,
+				A34ED573150BC5FE0080A5C1 /* GTLFramework.m in Sources */,
+				A34ED575150BC5FE0080A5C1 /* GTLUtilities.m in Sources */,
+				A34ED59F150BC6940080A5C1 /* GTMGatherInputStream.m in Sources */,
+				A34ED5A0150BC6940080A5C1 /* GTMHTTPFetcher.m in Sources */,
+				A34ED5A1150BC6940080A5C1 /* GTMHTTPFetcherLogging.m in Sources */,
+				A34ED5A2150BC6940080A5C1 /* GTMHTTPFetcherService.m in Sources */,
+				A34ED5A3150BC6940080A5C1 /* GTMHTTPFetchHistory.m in Sources */,
+				A34ED5A4150BC6940080A5C1 /* GTMHTTPUploadFetcher.m in Sources */,
+				A34ED5A5150BC6940080A5C1 /* GTMMIMEDocument.m in Sources */,
+				A34ED5A6150BC6940080A5C1 /* GTMReadMonitorInputStream.m in Sources */,
+				A34ED5C0150BC89D0080A5C1 /* GTLJSONParser.m in Sources */,
+				A34ED5C9150BC9130080A5C1 /* NSObject+SBJSON.m in Sources */,
+				A34ED5CA150BC9130080A5C1 /* NSString+SBJSON.m in Sources */,
+				A34ED5CB150BC9130080A5C1 /* SBJSON.m in Sources */,
+				A34ED5CF150BE48C0080A5C1 /* MoviesViewController.m in Sources */,
+				A34ED5D4150BEB2E0080A5C1 /* BooksMoreViewController.m in Sources */,
+				A34ED5D9150CEFFF0080A5C1 /* BooksResultsViewController.m in Sources */,
+				A34ED5DE150D1F9D0080A5C1 /* BooksDetailViewController.m in Sources */,
+				A34BAC6015155DD9004AD4A2 /* Constants.m in Sources */,
+				A37F2B99152759090056CC28 /* MyRecommendations.m in Sources */,
+				A3F138B715278D21003EB9F1 /* GTLLatitudeConstants.m in Sources */,
+				A3F138B815278D21003EB9F1 /* GTLLatitudeLocation.m in Sources */,
+				A3F138B915278D21003EB9F1 /* GTLLatitudeLocationFeed.m in Sources */,
+				A3F138BA15278D21003EB9F1 /* GTLQueryLatitude.m in Sources */,
+				A3F138BB15278D21003EB9F1 /* GTLServiceLatitude.m in Sources */,
+				A3F138BF15279C60003EB9F1 /* ResultsViewController.m in Sources */,
+				A3CA81CA152F420F00B9A6BA /* ResultsDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,20 +782,20 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		A3A2B4D414AF8BD2008A65F4 /* FirstView.xib */ = {
+		A3A2B4D414AF8BD2008A65F4 /* FriendsView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A3A2B4D514AF8BD2008A65F4 /* en */,
 			);
-			name = FirstView.xib;
+			name = FriendsView.xib;
 			sourceTree = "<group>";
 		};
-		A3A2B4D714AF8BD2008A65F4 /* SecondView.xib */ = {
+		A3A2B4D714AF8BD2008A65F4 /* RecommendView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A3A2B4D814AF8BD2008A65F4 /* en */,
 			);
-			name = SecondView.xib;
+			name = RecommendView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -228,6 +814,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -242,6 +829,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -251,12 +839,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRecommend/iRecommend-Prefix.pch";
 				INFOPLIST_FILE = "iRecommend/iRecommend-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,11 +872,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRecommend/iRecommend-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/bhavikshah/code/google-api-objectivec-client-read-only/Source/**";
 				INFOPLIST_FILE = "iRecommend/iRecommend-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -294,8 +921,23 @@
 				A3A2B4DE14AF8BD2008A65F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3ED331414B40DF000166982 /* rec.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3ED331514B40DF000166982 /* rec.xcdatamodel */,
+			);
+			currentVersion = A3ED331514B40DF000166982 /* rec.xcdatamodel */;
+			name = rec.xcdatamodeld;
+			path = ../rec.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A3A2B4AC14AF8BD1008A65F4 /* Project object */;
 }

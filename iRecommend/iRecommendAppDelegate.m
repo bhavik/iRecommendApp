@@ -1,9 +1,9 @@
 //
-//  iRecommendAppDelegate.m
-//  iRecommend
+//  iRecAppDelegate.m
+//  iRec
 //
-//  Created by Bhavik Shah on 12/31/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Bhavik Shah on 1/8/12.
+//  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "iRecommendAppDelegate.h"
@@ -13,13 +13,43 @@
 
 @synthesize window=_window;
 
-@synthesize tabBarController=_tabBarController;
+@synthesize managedObjectContext=__managedObjectContext;
+
+@synthesize managedObjectModel=__managedObjectModel;
+
+@synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
+@synthesize tabBarController=_tabBarController; 
+@synthesize navBar=_navBar;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    // Add the tab bar controller's current view as a subview of the window
-    self.window.rootViewController = self.tabBarController;
+    NSManagedObjectContext *context = [self managedObjectContext];
+    NSManagedObject *recInfo = [NSEntityDescription
+                                insertNewObjectForEntityForName:@"Recommendations" 
+                                inManagedObjectContext:context];
+    [recInfo setValue:@"Chipotle Restaurant" forKey:@"name"];
+    [recInfo setValue:@"Amazing place, here is the link" forKey:@"desc"];
+    NSError *error;
+    if (![context save:&error]) {
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    }
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription 
+                                   entityForName:@"Recommendations" inManagedObjectContext:context];
+    [fetchRequest setEntity:entity];
+    /*
+    NSArray *fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];
+   
+    for (NSManagedObject *info in fetchedObjects) {
+        NSLog(@"Name: %@", [info valueForKey:@"name"]);
+        NSLog(@"Desc: %@", [info valueForKey:@"desc"]);
+    } 
+     
+    [fetchRequest release];
+    */
+     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -56,32 +86,140 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    /*
-     Called when the application is about to terminate.
-     Save data if appropriate.
-     See also applicationDidEnterBackground:.
-     */
+    // Saves changes in the application's managed object context before the application terminates.
+    [self saveContext];
 }
 
 - (void)dealloc
 {
     [_window release];
-    [_tabBarController release];
+    [__managedObjectContext release];
+    [__managedObjectModel release];
+    [__persistentStoreCoordinator release];
+    [_navBar release];
+    
     [super dealloc];
 }
 
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+- (void)awakeFromNib
 {
+    /*
+     Typically you should set up the Core Data stack here, usually by passing the managed object context to the first view controller.
+     self.<#View controller#>.managedObjectContext = self.managedObjectContext;
+     */
 }
-*/
 
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed
+- (void)saveContext
 {
+    NSError *error = nil;
+    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
+    if (managedObjectContext != nil)
+    {
+        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error])
+        {
+            /*
+             Replace this implementation with code to handle the error appropriately.
+             
+             abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. If it is not possible to recover from the error, display an alert panel that instructs the user to quit the application by pressing the Home button.
+             */
+            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            abort();
+        } 
+    }
 }
-*/
+
+#pragma mark - Core Data stack
+
+/**
+ Returns the managed object context for the application.
+ If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
+ */
+- (NSManagedObjectContext *)managedObjectContext
+{
+    if (__managedObjectContext != nil)
+    {
+        return __managedObjectContext;
+    }
+    
+    NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+    if (coordinator != nil)
+    {
+        __managedObjectContext = [[NSManagedObjectContext alloc] init];
+        [__managedObjectContext setPersistentStoreCoordinator:coordinator];
+    }
+    return __managedObjectContext;
+}
+
+/**
+ Returns the managed object model for the application.
+ If the model doesn't already exist, it is created from the application's model.
+ */
+- (NSManagedObjectModel *)managedObjectModel
+{
+    if (__managedObjectModel != nil)
+    {
+        return __managedObjectModel;
+    }
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"rec" withExtension:@"momd"];
+    __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];    
+    return __managedObjectModel;
+}
+
+/**
+ Returns the persistent store coordinator for the application.
+ If the coordinator doesn't already exist, it is created and the application's store added to it.
+ */
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator
+{
+    if (__persistentStoreCoordinator != nil)
+    {
+        return __persistentStoreCoordinator;
+    }
+    
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"iRecommend.sqlite"];
+    
+    NSError *error = nil;
+    __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error])
+    {
+        /*
+         Replace this implementation with code to handle the error appropriately.
+         
+         abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. If it is not possible to recover from the error, display an alert panel that instructs the user to quit the application by pressing the Home button.
+         
+         Typical reasons for an error here include:
+         * The persistent store is not accessible;
+         * The schema for the persistent store is incompatible with current managed object model.
+         Check the error message to determine what the actual problem was.
+         
+         
+         If the persistent store is not accessible, there is typically something wrong with the file path. Often, a file URL is pointing into the application's resources directory instead of a writeable directory.
+         
+         If you encounter schema incompatibility errors during development, you can reduce their frequency by:
+         * Simply deleting the existing store:
+         [[NSFileManager defaultManager] removeItemAtURL:storeURL error:nil]
+         
+         * Performing automatic lightweight migration by passing the following dictionary as the options parameter: 
+         [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption, [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+         
+         Lightweight migration will only work for a limited set of schema changes; consult "Core Data Model Versioning and Data Migration Programming Guide" for details.
+         
+         */
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        abort();
+    }    
+    
+    return __persistentStoreCoordinator;
+}
+
+#pragma mark - Application's Documents directory
+
+/**
+ Returns the URL to the application's Documents directory.
+ */
+- (NSURL *)applicationDocumentsDirectory
+{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
 
 @end
