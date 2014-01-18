@@ -10,7 +10,7 @@
 
 NSString * const RECOMMENDAPI_DEVELOPMENT_URL = @"http://localhost:3000/";
 NSString * const RECOMMENDAPI_CREATE_DEVELOPMENT_URL = @"http://localhost:3000/recommendations/add_recommendation";
-NSString * const RECOMMENDAPI_RECOMMEND_BY_USER_DEVELOPMENT_URL = @"http://localhost:3000/recommendation/recommendation_by_user";
+NSString * const RECOMMENDAPI_RECOMMEND_BY_USER_DEVELOPMENT_URL = @"http://localhost:3000/recommendations/recommendation_by_user";
 NSString * const API_KEY_ROTTEN_TOMATOES = @"dj4d5fd46cqhbdbc373fzmc3";
 NSString * const ROTTEN_TOMATOES_MOVIES_SEARCH = @"http://api.rottentomatoes.com/api/public/v1.0/movies.json";
 
