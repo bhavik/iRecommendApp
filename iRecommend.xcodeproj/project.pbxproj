@@ -96,6 +96,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2F04A6F7188B1B0D004408E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34ED4F4150BB6080080A5C1 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLUnitTests;
+		};
+		2F04A6F9188B1B0D004408E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34ED4F4150BB6080080A5C1 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = DevelopmentTestTool;
+		};
 		A34ED4F9150BB6080080A5C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A34ED4F4150BB6080080A5C1 /* GTL.xcodeproj */;
@@ -306,8 +320,10 @@
 		A34ED4F5150BB6080080A5C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A34ED4FA150BB6080080A5C1 /* GTL */,
+				A34ED4FA150BB6080080A5C1 /* GTL.framework */,
 				A34ED4FC150BB6080080A5C1 /* libGTLTouchStaticLib.a */,
+				2F04A6F8188B1B0D004408E5 /* GTLUnitTests.octest */,
+				2F04A6FA188B1B0D004408E5 /* DevelopmentTestTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -606,6 +622,8 @@
 /* Begin PBXProject section */
 		A3A2B4AC14AF8BD1008A65F4 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = A3A2B4AF14AF8BD1008A65F4 /* Build configuration list for PBXProject "iRecommend" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -634,10 +652,24 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A34ED4FA150BB6080080A5C1 /* GTL */ = {
+		2F04A6F8188B1B0D004408E5 /* GTLUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.octest;
+			remoteRef = 2F04A6F7188B1B0D004408E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F04A6FA188B1B0D004408E5 /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = 2F04A6F9188B1B0D004408E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A34ED4FA150BB6080080A5C1 /* GTL.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = GTL;
+			path = GTL.framework;
 			remoteRef = A34ED4F9150BB6080080A5C1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -815,6 +847,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = iRecommend;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -831,6 +864,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = iRecommend;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
